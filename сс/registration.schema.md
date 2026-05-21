@@ -11,7 +11,7 @@ flowchart TD
   E["Шаг: email"]
   PC["Personal & company"]
   T["Шаг: tariff"]
-  BD["Billing data<br/><i>только если тариф не free</i>"]
+  BD["Billing data"]
   S["Сабмит формы<br/><i>создаём юзера в API — vetting_count = 5, план = настоящий</i>"]
   MAIL["Письмо активации<br/><i>уходит всегда сразу, независимо от веток</i>"]
   Q{"Тариф?"}
